@@ -35,7 +35,7 @@ GET_READER_FIRMWARE_VERSION_CMD = bytes([0xFF, 0x00, 0x48, 0x00, 0x00])
 # Serial port value. Should correspond to the actual Serial (COM) port of the NFC reader
 PORT = "COM7"
 
-# Serial port speed. By default 9600 (value taken from the ACR122S protocol description)
+# Serial port speed. By default 9600 or 115200 (values from the ACR122S protocol description)
 BAUDRATE = 9600
 
 # retry attempts to get the firmware version
