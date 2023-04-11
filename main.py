@@ -45,8 +45,6 @@ RETRY = 5
 READ_FIRMWARE_VERSION_ENB = 1
 
 # opens serial port connection
-# port can be set in the config/config.json file. Example : 'COM7'. Port value should correspond to the actual serial port of the NFC reader
-# baudrate can be set in the config/config.json file.
 def serial_init():
     print("\nDEVICE DETECTED: " +  "'" + PORT + "'" + " ON BAUDRATE: " + str(BAUDRATE))
     try:
